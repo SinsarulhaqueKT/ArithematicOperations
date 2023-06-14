@@ -1,0 +1,79 @@
+
+*{
+    border: 0%;
+    margin: 0%;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  
+}
+#result{
+    width: 70%;
+    height: 600px;
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+ 
+}
+#resultleft{
+    width: 50%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#resultright{
+    /* width: 50%; */
+   
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#firstinput{
+    width: 260px;
+    height: 60px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 12px;
+    
+}
+#secondinput{
+    width: 260px;
+    height: 60px;
+    background-color: white;
+    font-size: 30px;
+    border-radius: 12px;
+    
+}
+
+#but{
+    width: 350px;
+    height: 50px;
+    font-size: 35px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+#operationresult{
+    width: 70%;
+   height: 80px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 40px;
+}
+/* #all{
+    width: 100%;
+    height: 100vh;
+} */
